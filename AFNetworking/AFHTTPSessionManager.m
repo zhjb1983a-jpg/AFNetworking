@@ -28,9 +28,9 @@
 #import <TargetConditionals.h>
 #import <Security/Security.h>
 
-#import <netinet/in.h>
-#import <netinet6/in6.h>
-#import <arpa/inet.h>
+#include <netinet/in.h>
+#include <netinet/ip6.h>
+#include <arpa/inet.h>
 #import <ifaddrs.h>
 #import <netdb.h>
 
